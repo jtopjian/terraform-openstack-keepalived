@@ -1,0 +1,6 @@
+export OS_AUTH_URL=
+export OS_TENANT_ID=
+export OS_TENANT_NAME=
+export OS_USERNAME=
+export OS_REGION_NAME=
+export OS_PASSWORD=
