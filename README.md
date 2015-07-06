@@ -41,3 +41,5 @@ $ nova start keepalived-1
 ## Limitations
 
 This is just a demo and should not be used for production. The `keepalived.conf` file is very sparse and you'd probably want to add more options to it. In addition, this demo only accounts for two servers at the time of deployment. If you wanted to add more servers or have more of a dynamic environment, you'll have to use something like etcd or Consul in parallel to this.
+
+Also, this form of HA is only good for inside regions. Failing over to different regions / data centers will require a different method, such as DNS.
