@@ -8,7 +8,7 @@ EOF
 apt-get update
 
 echo "===> Installing keepalived"
-apt-get install -y keepalived=1.2.13-0~276~ubuntu14.04.1
+apt-get install -y keepalived=1:1.2.13~ubuntu14.04.1
 
 echo "===> Installing keepalived config files"
 cp /home/ubuntu/scripts/$(hostname).conf /etc/keepalived/keepalived.conf
